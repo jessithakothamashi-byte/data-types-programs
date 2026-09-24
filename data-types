@@ -1,0 +1,58 @@
+1. Integer Data Type
+a = 10
+b = 20
+
+print("a =", a)
+print("b =", b)
+print("Sum =", a + b)
+OUTPUT:
+a = 10
+b = 20
+Sum = 30
+
+2. Float Data Type
+price = 99.50
+quantity = 2
+
+total = price * quantity
+
+print("Price =", price)
+print("Quantity =", quantity)
+print("Total =", total)
+OUTPUT:
+Price = 99.5
+Quantity = 2
+Total = 199.0
+
+3. String Data Type
+name = "Rahul"
+
+print("Name =", name)
+print("Length =", len(name))
+OUTPUT:
+Name = Rahul
+Length = 5
+
+4. List Data Type
+fruits = ["Apple", "Banana", "Mango"]
+
+print("Fruits:", fruits)
+print("First fruit:", fruits[0])
+OUTPUT:
+Fruits: ['Apple', 'Banana', 'Mango']
+First fruit: Apple
+
+5. Dictionary Data Type
+student = {
+    "name": "Rahul",
+    "age": 20,
+    "course": "Python"
+}
+
+print("Name:", student["name"])
+print("Age:", student["age"])
+print("Course:", student["course"])
+OUTPUT:
+Name: Rahul
+Age: 20
+Course: Python
